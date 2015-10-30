@@ -36,7 +36,7 @@
     </bean>
     
     <!-- Thymeleaf Template Resolver -->
-    <bean id="templateResolver" class="org.thymeleaf.templateresolver.ServletContextTemplateResolver">
+    <bean id="templateResolver" class="org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver">
         <property name="prefix" value="/WEB-INF/templates/" />
         <property name="templateMode" value="HTML" />
     </bean>
